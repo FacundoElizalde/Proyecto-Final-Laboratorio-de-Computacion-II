@@ -40,4 +40,37 @@ p{
     font-size: 20px;
     line-height: normal;
 }
+@media (max-width:858px){
+
+    .fondo{
+        background-image: url("../img/fondores.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right top;
+        margin:0px;
+        height: calc(100vh - 80px);  
+    }
+    .Conteiner{
+        color: white;
+        height: 50%;
+        width: 100%;
+        margin: auto auto;
+        backdrop-filter: blur(10px);
+        border: none;
+        border-radius: 0%;
+    }
+    .adam{
+        height: 70%;
+        float: right;
+        margin: 2.5%;
+        margin-top: 4.5%;
+    }
+    p{
+        font-family: 'Calibri';
+        padding: 2.5%;
+        padding-left: 1%;
+        font-size: 120%;
+        line-height: normal;
+    }
+}
 

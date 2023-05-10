@@ -97,4 +97,11 @@ footer{
     #check:checked ~ ul{
         left:0;
     }
+    footer{
+        float: right;
+        margin-top: 15%;
+        margin-right: 4%;
+        font-family: 'Calibri';
+        color: white;
+    }
 }
