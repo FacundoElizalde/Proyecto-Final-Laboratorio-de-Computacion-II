@@ -6,3 +6,31 @@
     margin:0px;
     height: calc(100vh - 80px);
 }
+h1{
+    color: white;
+    font-family: 'calibri';
+    text-align: center;
+    padding: 50px;
+    font-size: 45px;
+}
+.Conteiner{
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 600px;
+    margin: auto auto;
+}
+.adam{
+    height: 250px;
+    float: right;
+    margin: 15px;
+    margin-top: 70px;
+}
+p{
+    font-family: 'Calibri';
+    text-align:justify;
+    padding: 35px;
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: normal;
+}
