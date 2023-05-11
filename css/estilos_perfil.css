@@ -34,7 +34,6 @@ h1{
 }
 p{
     font-family: 'Calibri';
-    text-align:justify;
     padding: 27px;
     padding-left: 15px;
     font-size: 20px;
@@ -63,11 +62,11 @@ p{
         height: 70%;
         float: right;
         margin: 2.5%;
-        margin-top: 4.5%;
+        margin-top: 7%;
     }
     p{
         font-family: 'Calibri';
-        padding: 2.5%;
+        padding: 3vh;
         padding-left: 1%;
         font-size: 120%;
         line-height: normal;
