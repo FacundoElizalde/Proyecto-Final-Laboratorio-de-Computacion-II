@@ -53,12 +53,11 @@ li a.active, li a:hover{
 }
 footer{
     float: right;
-    margin-top: 95px;
+    margin-top: 70px;
     margin-right: 7px;
     font-family: 'Calibri';
     color: white;
 }
-
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;

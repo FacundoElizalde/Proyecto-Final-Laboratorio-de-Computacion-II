@@ -39,6 +39,16 @@ p{
     font-size: 20px;
     line-height: normal;
 }
+h2{
+    color: solid white;
+    font-size: 15px;
+    font-family: 'Calibri';
+    margin-left: 958px;
+    margin-right: 450px;
+    margin-top: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
 @media (max-width:858px){
 
     .fondo{
@@ -70,6 +80,17 @@ p{
         padding-left: 1%;
         font-size: 120%;
         line-height: normal;
+    }
+    h2{
+        color: white;
+        font-size: 20px;
+        font-family: 'Calibri';
+        margin-left: 85%;
+        margin-right: 0%;
+        margin-top: 10px;
+        padding-left: none;
+        border: none;
+        border-radius: none;
     }
 }
 
