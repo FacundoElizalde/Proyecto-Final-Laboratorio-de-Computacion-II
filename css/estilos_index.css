@@ -9,14 +9,16 @@ body{
 .flex-conteiner{
     display: flex;
     margin: 20px;
-    border: 2px solid white;
+    border-radius: 10px;
+    border: 4px solid white;
     backdrop-filter: blur(10px);
 }
 .caja{
-    width: 120px;
-    height: 120px;
-    background-color: white;
-    color: black;
-    border: 3px solid blue;
+    width: 170px;
+    height: 140px;
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    border-radius: 10px;
     margin:10px
 }
