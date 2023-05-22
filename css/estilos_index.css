@@ -1,9 +1,22 @@
-.fondopri{
+
+body{
     background-image: url('../img/fondo.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right top;
-    margin:0px;
-    height: calc(100vh - 80px);
-    filter: blur(4px);
+    background-position: center;
+}
+.flex-conteiner{
+    display: flex;
+    margin: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+}
+.caja{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    color: black;
+    border: 3px solid blue;
+    margin:10px
 }
