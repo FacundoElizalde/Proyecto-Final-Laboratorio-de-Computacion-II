@@ -2,23 +2,37 @@
 body{
     background-image: url('../img/fondo.png');
     background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 .flex-conteiner{
     display: flex;
-    margin: 20px;
-    border-radius: 10px;
-    border: 4px solid white;
-    backdrop-filter: blur(10px);
+}
+.margizq{
+    display: flex;
+    flex-flow: column;
+    background-color: red;
 }
 .caja{
-    width: 170px;
-    height: 140px;
+    width: 270px;
+    height: 330px;
+    background-image: url(../img/champ.png);
     background-color: black;
-    color: white;
-    border: 3px solid red;
-    border-radius: 10px;
-    margin:10px
+    background-size: 100% 100%;
+    margin: 2px;
+}
+.caja1{
+    width: 270px;
+    height: 330px;
+    background-image: url(../img/driv.png);
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 2px;
+}
+.caja2{
+    width: 250px;
+    height: 250px;
+    background-color: white;
 }
