@@ -6,9 +6,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    filter: blur (10px);
 }
 .flex-conteiner{
     display: flex;
+    backdrop-filter: blur(8px);
+    background-size: 100% 100%;
 }
 .margizq{
     display: flex;
@@ -32,7 +35,11 @@ body{
     margin: 2px;
 }
 .caja2{
-    width: 250px;
-    height: 250px;
-    background-color: white;
+    width: 360px;
+    height: 330px;
+    background-image: url(../img/championship.png);
+    background-size: 100% 100%;
+    margin: 2px;
+    margin-left: 5px;
+    border: 2px solid black;
 }
