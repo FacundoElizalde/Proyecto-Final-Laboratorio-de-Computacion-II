@@ -1,38 +1,14 @@
 
 body{
-    background-image: url('../img/fondo.png');
-    background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    filter: blur (10px);
+    background-color: white;
 }
 .flex-conteiner{
     display: flex;
-    backdrop-filter: blur(8px);
-    background-size: 100% 100%;
 }
 .margizq{
     display: flex;
     flex-flow: column;
     background-color: red;
-}
-.caja{
-    width: 270px;
-    height: 330px;
-    background-image: url(../img/champ.png);
-    background-color: black;
-    background-size: 100% 100%;
-    margin: 2px;
-}
-.caja1{
-    width: 270px;
-    height: 330px;
-    background-image: url(../img/driv.png);
-    background-color: black;
-    background-size: 100% 100%;
-    margin: 2px;
 }
 .caja2{
     width: 360px;

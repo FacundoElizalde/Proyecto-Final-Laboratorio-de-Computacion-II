@@ -36,7 +36,7 @@ nav ul li a{
     font-family: 'Calibri';
 }
 li a.active, li a:hover{
-    background: red;
+    background: orange;
     transition: .5s;
 }
 .checkbtn{
