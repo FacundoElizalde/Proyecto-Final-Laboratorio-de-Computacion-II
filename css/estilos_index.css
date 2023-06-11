@@ -1,14 +1,9 @@
 
 body{
-    background-color: white;
+    background-color: grey;
 }
 .flex-conteiner{
     display: flex;
-}
-.margizq{
-    display: flex;
-    flex-flow: column;
-    background-color: red;
 }
 .caja2{
     width: 360px;
