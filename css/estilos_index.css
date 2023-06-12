@@ -4,7 +4,6 @@ body{
 }
 .flex-conteiner{
     display: flex;
-    flex-flow: row;
 }
 .margizq{
     height: 674px;
@@ -38,10 +37,15 @@ p{
     margin-right: 10px;
 }
 .contpri{
-
     background-color: lightgray;
     width: 1500px;
     height: 644px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 15px;
+}
+.comparision{
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 20px;
 }
