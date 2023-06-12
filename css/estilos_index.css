@@ -37,10 +37,11 @@ p{
     margin-left: 10px;
     margin-right: 10px;
 }
-.caja1{
+.contpri{
 
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+    background-color: lightgray;
+    width: 1500px;
+    height: 644px;
+    border-radius: 20px;
+    margin: 15px;
 }

@@ -34,10 +34,11 @@
   }
   
   nav ul li a {
+    margin-right: 15px;
     color: #fff;
     font-size: 20px;
     padding: 7px 20px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-family: 'Calibri';
   }
