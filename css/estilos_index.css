@@ -4,6 +4,7 @@ body{
 }
 .flex-conteiner{
     display: flex;
+    flex-direction: row;
 }
 .margizq{
     height: 674px;
@@ -42,10 +43,20 @@ p{
     height: 644px;
     border-radius: 30px;
     margin: 15px;
+    flex-direction: row;
 }
 .comparision{
     width: 450px;
     height: 350px;
     margin: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.trading{
+    width: 761px;
+    height: 350px;
+    margin: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     border-radius: 20px;
 }
