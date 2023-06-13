@@ -78,3 +78,37 @@ p {
     border-radius: 20px;
     border: 2px solid lightgrey;
 }
+.continf{
+    width: 210px;
+    height: 260px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.up{
+    width: 210;
+    height: 80px;
+    margin-bottom: 10px;
+    background-image: url(../img/dolar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid black;    
+}
+.middle{
+    width: 210;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.down{
+    width: 210;
+    height: 80px;
+    background-color: blue;
+    border-radius: 20px;
+
+}
