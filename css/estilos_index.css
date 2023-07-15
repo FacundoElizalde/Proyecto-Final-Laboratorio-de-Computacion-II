@@ -152,7 +152,6 @@ body {
     border-radius: 20px;
   }
   
-  /* Estilos para dispositivos móviles */
   @media only screen and (max-width: 600px) {
     .flex-container {
       flex-direction: column;
@@ -163,20 +162,21 @@ body {
     }
   
     .contpri {
+      background: none;
       margin: 5px;
     }
-  
+    
+    .bitcoincont{
+        display: none;
+    }
+    .continf{
+        flex-direction: row;
+    }
     .comparision,
     .trading,
-    .bitcoincont,
     .continf,
     .buybit,
-    .video {
-      width: 100%;
-      max-width: 100%;
-      margin: 5px;
-      margin-left: 0;
-    }
-  }
+    .video,
+}
   
   
