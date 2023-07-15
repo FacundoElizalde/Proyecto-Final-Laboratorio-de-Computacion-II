@@ -125,10 +125,12 @@ p {
     margin: 10px;
     margin-top: 0px;
     margin-left: 0px;
+    background-image: url(../img/compbit.png);
+    background-size: contain;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 20px;
-    background-color: grey;
+    background-color: white;
 }
 .contfinal{
     width: 491px;
