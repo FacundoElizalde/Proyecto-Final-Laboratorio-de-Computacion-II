@@ -132,13 +132,12 @@ p {
     border-radius: 20px;
     background-color: white;
 }
-.contfinal{
+.video{
     width: 491px;
     border: 1px solid black;
     height: 260px;
     margin: 10px;
     margin-left: 0px;
     margin-top: 0px;
-    background-color: grey;
     border-radius: 20px;
 }
