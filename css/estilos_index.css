@@ -1,18 +1,18 @@
 body {
     background-color: grey;
-}
-
-.flex-container {
+  }
+  
+  .flex-container {
     display: flex;
-}
-
-.margizq {
+  }
+  
+  .margizq {
     height: 674px;
     width: 210px;
     background-color: black;
-}
-
-p {
+  }
+  
+  p {
     color: white;
     font-family: 'calibri';
     font-size: 18px;
@@ -20,17 +20,17 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
-}
-
-.binance {
+  }
+  
+  .binance {
     background-image: url(../img/binance.png);
     background-size: cover;
     margin-top: 20px;
     width: 200px;
     height: 100px;
-}
-
-.crypto {
+  }
+  
+  .crypto {
     background-image: url(../img/crypto.png);
     background-size: contain;
     background-position: center;
@@ -39,35 +39,38 @@ p {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.contpri {
+  }
+  
+  .contpri {
     background-color: lightgray;
-    width: 1254px;
+    width: 100%;
+    max-width: 1254px;
     height: 644px;
     border-radius: 30px;
     margin: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.comparision {
-    width: 445px;
+  }
+  
+  .comparision {
+    width: 100%;
+    max-width: 445px;
     height: 350px;
     margin: 10px;
     border-radius: 20px;
-}
-
-.trading {
-    width: 779px;
+  }
+  
+  .trading {
+    width: 100%;
+    max-width: 779px;
     height: 350px;
     margin: 10px;
     margin-left: 0px;
     border-radius: 20px;
-}
-
-.bitcoincont {
+  }
+  
+  .bitcoincont {
     width: 300px;
     height: 260px;
     margin: 10px;
@@ -77,8 +80,9 @@ p {
     background-repeat: no-repeat;
     border-radius: 20px;
     border: 2px solid lightgrey;
-}
-.continf{
+  }
+  
+  .continf {
     width: 210px;
     height: 260px;
     margin: 10px;
@@ -86,9 +90,10 @@ p {
     margin-left: 0px;
     border-radius: 20px;
     flex-direction: column;
-}
-.up{
-    width: 210;
+  }
+  
+  .up {
+    width: 210px;
     height: 80px;
     margin-bottom: 10px;
     background-image: url(../img/dolar.png);
@@ -96,10 +101,11 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    background-color: #202124;   
-}
-.middle{
-    width: 210;
+    background-color: #202124;
+  }
+  
+  .middle {
+    width: 210px;
     height: 80px;
     margin-bottom: 10px;
     background-color: #202124;
@@ -108,9 +114,10 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-}
-.down{
-    width: 210;
+  }
+  
+  .down {
+    width: 210px;
     height: 80px;
     background-color: #202124;
     background-image: url(../img/real.png);
@@ -118,8 +125,9 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-}
-.buybit{
+  }
+  
+  .buybit {
     width: 200px;
     height: 260px;
     margin: 10px;
@@ -131,8 +139,10 @@ p {
     background-repeat: no-repeat;
     border-radius: 20px;
     background-color: white;
-}
-.video{
+  }
+  
+  .video {
+    width: 100%;
     width: 491px;
     border: 1px solid black;
     height: 260px;
@@ -140,4 +150,33 @@ p {
     margin-left: 0px;
     margin-top: 0px;
     border-radius: 20px;
-}
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .margizq {
+      display: none;
+    }
+  
+    .contpri {
+      margin: 5px;
+    }
+  
+    .comparision,
+    .trading,
+    .bitcoincont,
+    .continf,
+    .buybit,
+    .video {
+      width: 100%;
+      max-width: 100%;
+      margin: 5px;
+      margin-left: 0;
+    }
+  }
+  
+  
