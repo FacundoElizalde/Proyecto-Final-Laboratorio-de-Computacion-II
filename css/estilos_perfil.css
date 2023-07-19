@@ -51,6 +51,49 @@ p{
     background: none;
     transition: none;
 }
+h2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Calibri';
+    margin-left: 85%;
+    margin-right: 0%;
+    margin-top: 10px;
+    padding-left: none;
+    border: none;
+    border-radius: none;
+}
+.edit-btn {
+    display: none;
+}
+
+.edit-form {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 300px;;
+    margin-right: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px #222;
+}
+
+.edit {
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial';
+    margin-left: 85%;
+    margin-right: 0%;
+    margin-top: 10px;
+    padding-left: none;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+}
+
+#edit-tab:checked ~ .edit-form {
+    display: block;
+}
 @media (max-width:858px){
 
     body{

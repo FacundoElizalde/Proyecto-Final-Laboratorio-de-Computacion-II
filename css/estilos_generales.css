@@ -60,11 +60,6 @@
     display: none;
   }
   
-  footer {
-    font-family: 'Calibri';
-    color: white;
-  }
-  
   @media (max-width: 952px) {
     .enlace {
       padding-left: 20px;
@@ -106,10 +101,6 @@
     }
     #check:checked ~ ul {
       left: 0;
-    }
-    footer {
-      margin-top: 15%;
-      margin-right: 4%;
     }
   }
   

@@ -22,13 +22,13 @@
         </a>
         <ul>
             <li><a href="index.html">Dashboard</a></li>
-            <li><a class="active" href="perfil.html">Porfile</a></li>
+            <li><a class="active" href="perfil.html">Profile</a></li>
         </ul>
     </nav>
 
     <div class="fondo">
 
-        <h1>Porfile Information</h1>
+        <h1>Profile Information</h1>
 
         <div class="Conteiner">
 
@@ -37,8 +37,8 @@
             <div class="Info">
 
                 <p>Name: Antonio Lobato</p>
-                <p>Adress: Madrid, España</p>
-                <p>Work: Trading Proffesional</p>
+                <p>Address: Madrid, España</p>
+                <p>Work: Trading Professional</p>
                 <p>Company: Crypto.com</p>
                 <p>Email: lobatoant@gmail.com</p>
 
@@ -46,11 +46,35 @@
 
         </div>
 
-        <h2><li><a href="">Edit porfile</a></li></h2>
+        <input type="checkbox" id="edit-tab" class="edit-btn">
+        <label for="edit-tab" class="edit">
+            Edit Profile
+        </label>
 
-        <footer>© All Rights Reserved, designed by Facundo Elizalde</footer>
+        <div class="edit-form">
+            <form>
+                <label for="name" style="color: white; font-family: 'Arial';">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+
+                <label for="address" style="color: white; font-family: 'Arial';">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Address">
+
+                <label for="work" style="color: white; font-family: 'Arial';">Work:</label>
+                <input type="text" id="work" name="work" placeholder="Work">
+
+                <label for="company" style="color: white; font-family: 'Arial';">Company:</label>
+                <input type="text" id="company" name="company" placeholder="Company">
+
+                <label for="email" style="color: white; font-family: 'Arial';">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+
+                <input type="submit" value="Save">
+            </form>
+        </div>
+
     </div>
     
 </body>   
 </html>
+
 

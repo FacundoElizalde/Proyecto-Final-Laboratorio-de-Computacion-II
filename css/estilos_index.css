@@ -4,6 +4,8 @@ body {
   
   .flex-container {
     display: flex;
+    width: 100%;
+    height: 100%;
   }
   
   .margizq {
@@ -43,8 +45,7 @@ body {
   
   .contpri {
     background-color: lightgray;
-    width: 100%;
-    max-width: 1254px;
+    width: 1254px;
     height: 644px;
     border-radius: 30px;
     margin: 15px;
@@ -54,16 +55,14 @@ body {
   }
   
   .comparision {
-    width: 100%;
-    max-width: 445px;
+    width: 445px;
     height: 350px;
     margin: 10px;
     border-radius: 20px;
   }
   
   .trading {
-    width: 100%;
-    max-width: 779px;
+    width: 779px;
     height: 350px;
     margin: 10px;
     margin-left: 0px;
