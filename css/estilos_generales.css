@@ -96,7 +96,7 @@
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 510px) {
     nav ul {
       flex-direction: column;
     }
@@ -107,7 +107,7 @@
       padding: 10px 20px;
     }
     nav ul li a {
-      font-size: 16px;
+      font-size: 30px;
       padding: 7px 15px;
     }
   }

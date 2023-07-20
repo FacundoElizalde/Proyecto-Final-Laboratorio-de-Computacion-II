@@ -151,31 +151,68 @@ body {
     border-radius: 20px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 510px) {
     .flex-container {
       flex-direction: column;
+      width: 100%;
     }
-  
     .margizq {
       display: none;
     }
-  
     .contpri {
       background: none;
-      margin: 5px;
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
     }
-    
+    .trading{
+      display: none;
+    }
+    .comparision{
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      width: 470px;
+    }
     .bitcoincont{
-        display: none;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 5px;
+      width: 470px;
     }
     .continf{
-        flex-direction: row;
+      margin: 0px;
+      padding-left: 150px;
+      height: 165px;
+      flex-direction: row;
+      flex-wrap: nowrap;
     }
-    .comparision,
-    .trading,
-    .continf,
-    .buybit,
-    .video,
+    .up{
+      margin: 5px;
+      width: 150px;
+      height: 50px;
+    }
+    .middle{
+      margin: 5px;
+      width: 150px;
+      height: 50px;
+    }
+    .down{
+      margin: 5px;
+      width: 150px;
+      height: 50px;
+    }
+    .buybit{
+      display: none;
+    }
+    .video{
+      margin: 10px;
+      width: 470px;
+    }
 }
   
   
