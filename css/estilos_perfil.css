@@ -10,7 +10,7 @@ h1{
     color: orange;
     font-family: 'calibri';
     text-align: center;
-    margin: 730px;
+    margin: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 45px;
@@ -56,17 +56,6 @@ p{
     background: none;
     transition: none;
 }
-h2{
-    color: white;
-    font-size: 20px;
-    font-family: 'Calibri';
-    margin-left: 85%;
-    margin-right: 0%;
-    margin-top: 10px;
-    padding-left: none;
-    border: none;
-    border-radius: none;
-}
 .edit-btn {
     display: none;
 }
@@ -97,23 +86,18 @@ h2{
 }
 
 #edit-tab:checked ~ .edit-form {
-    display: block;
+    display: flex;
 }
-@media (max-width:858px){
-
-    body{
-        background-image: url("../img/fondores.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: right top;
-        margin:0px;
-        height: calc(100vh - 80px);  
+@media (max-width:510px){
+    h1{
+        margin: 25px;
     }
     .Conteiner{
         color: white;
         height: 50%;
         width: 100%;
         margin: auto auto;
+        margin-bottom: 20px;
         backdrop-filter: blur(10px);
         border: none;
         border-radius: 0%;
@@ -131,16 +115,17 @@ h2{
         font-size: 120%;
         line-height: normal;
     }
-    h2{
-        color: white;
-        font-size: 20px;
-        font-family: 'Calibri';
-        margin-left: 85%;
-        margin-right: 0%;
-        margin-top: 10px;
-        padding-left: none;
+    .edit{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .edit-form{
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
         border: none;
-        border-radius: none;
+        border-radius: 0px;
+        text-align: center;
     }
 }
 
